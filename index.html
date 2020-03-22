@@ -9,120 +9,218 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="b-top-phone">
-        <div class="row">
-            <div class="b-top-phone__text">
-                Бесплатный тел: 
-                <a href="tel:88007008278" class="b-top-phone__link">8 (800) 700-82-78</a>
+    <body class="supportDesktop supportOffline">
+        <div id="app" class="wrap">
+            <div class="b-top-phone">
+                <div class="row">
+                    <div class="b-top-phone__text">Бесплатный тел: <a href="tel:88007008278" class="b-top-phone__link">8 (800) 700-82-78</a>
+                    </div> 
+                    <div class="b-top-official__text">©2013-2020 Официальный дистрибьютор электронных замков ORBITA в России</div>
+                </div>
             </div> 
-            <div class="b-top-official__text">©2013-2020 Официальный дистрибьютор электронных замков ORBITA в России</div>
-        </div>
-    </div> 
-    <div class="b-navigation b-navigation" role="menubar">
-        <div class="b-navigation__items">
-            <a href="/" aria-label="Главная страница" class="b-navigation__logo">
-                <img src="src/image/logo-orbita.png" alt="Orbita" aria-hidden="true" title="">
-            </a>
-            <ul class="b-navigation__ul-block">
-                <li class="b-navigation__li-block">
-                    <a href="/produkcziya" class="b-navigation__link">Продукция</a>
-                </li>
-                <li class="b-navigation__li-block">
-                    <a href="/novosti?p=1" class="b-navigation__link">Новости</a>
-                </li>
-                <li class="b-navigation__li-block">
-                    <a href="/podderzhka-i-obsluzhivanie" class="b-navigation__link">Сервис</a>
-                </li>
-                <li class="b-navigation__li-block">
-                    <a href="/nashi-klientyi" class="b-navigation__link">Клиенты</a>
-                </li>
-                <li class="b-navigation__li-block">
-                    <a href="/partneram.html" class="b-navigation__link">Партнерам</a>
-                </li>
-                <li class="b-navigation__li-block">
-                    <a href="/dostavka-i-oplata.html" class="b-navigation__link">Оплата и доставка</a>
-                </li>
-                <li class="b-navigation__li-block">
-                    <a href="/kontaktyi.html" class="b-navigation__link">Контакты</a>
-                </li>
-            </ul>
-        </div>
-        
-    </div>
-    <div class="container">
-        <div class="container-slider-category">
-            <div class="b-section">
-                <div class="b-img-section">
-                    <div class="b-img-section__text">
-                        <h1>Электронные замки для шкафчиков в раздевалке</h1>
-                        <p>Современные электронные замки для шкафчиков в раздевалки фитнес центров, аквапарков и т.д. Гарантированное качество каждого замка в раздевалку. Открываются при помощи карты или браслета. Установка, обслуживание и поддержка. Доставка по всей РФ.</p>
-                    </div>
-                    <div class="b-img-section__image">
-                        <picture>
-                            <source srcset="//static.orbitatech.ru/images/banner-black-lock-catalog.webp" type="image/webp">
-                                <img src="//static.orbitatech.ru/images/banner-black-lock-catalog.jpg" alt="Замки для раздевалок">
-                            </picture>
+            <div class="container-menu">
+                <div class="b-navigation b-navigation" role="menubar">
+                    <div class="b-navigation__items">
+                        <a href="/" aria-label="Главная страница" class="b-navigation__logo">
+                            <img src="src/images/logo-orbita.png" alt="Orbita" aria-hidden="true" title=""></a>
+                            <ul class="b-navigation__ul-block">
+                                <li class="b-navigation__li-block">
+                                    <a href="/produkcziya" class="b-navigation__link">Продукция</a>
+                                </li>
+                                <li class="b-navigation__li-block">
+                                    <a href="/novosti?p=1" class="b-navigation__link">Новости</a>
+                                </li>
+                                <li class="b-navigation__li-block">
+                                    <a href="/podderzhka-i-obsluzhivanie" class="b-navigation__link">Сервис</a>
+                                </li>
+                                <li class="b-navigation__li-block">
+                                    <a href="/nashi-klientyi" class="b-navigation__link">Клиенты</a>
+                                </li>
+                                <li class="b-navigation__li-block">
+                                    <a href="/partneram.html" class="b-navigation__link">Партнерам</a>
+                                </li>
+                                <li class="b-navigation__li-block">
+                                    <a href="/dostavka-i-oplata.html" class="b-navigation__link">Оплата и доставка</a>
+                                </li>
+                                <li class="b-navigation__li-block">
+                                    <a href="/kontaktyi.html" class="b-navigation__link">Контакты</a>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="b-menu">
-                        <div onclick="location.href='/produkcziya/elektronnye-zamki'" class="b-block-menu">
-                            <div class="b-block-menu__items">
-                                <div class="b-block-menu__img">
-                                    <img src="src/images/smart-lock.svg" alt="Электронные замки" role="presentation">
-                                </div><div class="b-block-menu__a-link">
-                                    <span>Электронные замки</span>
+                        <div class="b-navigation__mobile-menu">
+                            <img src="src//images/logo-orbita.png" alt="Orbita" aria-hidden="true" onclick="location.href='/'" title="" class="b-navigation__mobile-menu-logo">
+                            <nav role="navigation">
+                                <div class="b-navigation__menutoggle">
+                                    <input type="checkbox">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <ul class="b-navigation__menu">
+                                        <li>
+                                            <a href="/produkcziya">Продукция</a>
+                                        </li>
+                                        <li>
+                                            <a href="/novosti?p=1">Новости</a>
+                                        </li>
+                                        <li>
+                                            <a href="/podderzhka-i-obsluzhivanie">Сервис</a>
+                                        </li>
+                                        <li>
+                                            <a href="/nashi-klientyi">Клиенты</a>
+                                        </li>
+                                        <li>
+                                            <a href="/partneram.html">Партнерам</a>
+                                        </li>
+                                        <li>
+                                            <a href="/dostavka-i-oplata.html">Оплата и доставка</a>
+                                        </li>
+                                        <li>
+                                            <a href="/kontaktyi.html">Контакты</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div>
-                        </div>
-                        <div onclick="location.href='/produkcziya/zamki-dlya-razdevalok'" class="b-block-menu">
-                            <div class="b-block-menu__items">
-                                <div class="b-block-menu__img">
-                                    <img src="src/images/lock-razdevalka.svg" alt="Замки для раздевалок" role="presentation">
-                                </div>
-                                <div class="b-block-menu__a-link">
-                                    <span>Замки для раздевалок</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div onclick="location.href='/produkcziya/intellektualnaya-sistema-upr'" class="b-block-menu">
-                            <div class="b-block-menu__items">
-                                <div class="b-block-menu__img">
-                                    <img src="src/images/pan.svg" alt="Системы управления номером" role="presentation">
-                                </div>
-                                <div class="b-block-menu__a-link">
-                                    <span>Системы управления номером</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div onclick="location.href='/produkcziya/gostnichnye-sejfy'" class="b-block-menu">
-                            <div class="b-block-menu__items">
-                                <div class="b-block-menu__img">
-                                    <img src="src/images/safety-box.svg" alt="Сейфы" role="presentation">
-                                </div>
-                                <div class="b-block-menu__a-link">
-                                    <span>Сейфы</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div onclick="location.href='/produkcziya/minibary-dlya-gostinic'" class="b-block-menu">
-                            <div class="b-block-menu__items"><div class="b-block-menu__img">
-                                <img src="src/images/minibar.svg" alt="Минибары" role="presentation">
-                            </div>
-                            <div class="b-block-menu__a-link">
-                                <span>Минибары</span>
-                            </div>
+                            </nav>
                         </div>
                     </div>
                 </div>
-                
-            
+                <div class="container">
+                    <div class="container-slider-category">
+                        <div class="b-section">
+                            <div class="b-img-section">
+                                <div class="b-img-section__text">
+                                    <h1>Система SERVISE BOOK</h1>
+                                </div>
+                                <div class="b-img-section__image">
+                                    <picture>
+                                        <source srcset="src/images/Iphone-Mockup.png" type="image/png">
+                                            <img src="src/images/Iphone-Mockup.png" alt="Сервис">
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="b-menu">
+                                    <div onclick="location.href='/produkcziya/elektronnye-zamki'" class="b-block-menu">
+                                        <div class="b-block-menu__items">
+                                            <div class="b-block-menu__img">
+                                                <img src="src//images/smart-lock.svg" alt="Электронные замки" role="presentation">
+                                            </div>
+                                            <div class="b-block-menu__a-link">
+                                                <span>Электронные замки</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div onclick="location.href='/produkcziya/zamki-dlya-razdevalok'" class="b-block-menu">
+                                        <div class="b-block-menu__items">
+                                            <div class="b-block-menu__img">
+                                                <img src="src//images/lock-razdevalka.svg" alt="Замки для раздевалок" role="presentation">
+                                            </div>
+                                            <div class="b-block-menu__a-link">
+                                                <span>Замки для раздевалок</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div onclick="location.href='/produkcziya/intellektualnaya-sistema-upr'" class="b-block-menu">
+                                        <div class="b-block-menu__items">
+                                            <div class="b-block-menu__img">
+                                                <img src="src//images/pan.svg" alt="Системы управления номером" role="presentation">
+                                            </div>
+                                            <div class="b-block-menu__a-link">
+                                                <span>Системы управления номером</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div onclick="location.href='/produkcziya/gostnichnye-sejfy'" class="b-block-menu">
+                                        <div class="b-block-menu__items">
+                                            <div class="b-block-menu__img">
+                                                <img src="src//images/safety-box.svg" alt="Сейфы" role="presentation">
+                                            </div>
+                                            <div class="b-block-menu__a-link">
+                                                <span>Сейфы</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div onclick="location.href='/produkcziya/minibary-dlya-gostinic'" class="b-block-menu">
+                                        <div class="b-block-menu__items">
+                                            <div class="b-block-menu__img">
+                                                <img src="src//images/minibar.svg" alt="Минибары" role="presentation">
+                                            </div>
+                                            <div class="b-block-menu__a-link">
+                                                <span>Минибары</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="b-mobile-catalog">
+                                    <div class="b-mobile-catalog__catalog-box">
+                                        <a href="/produkcziya/elektronnye-zamki" class="b-mobile-catalog__catalog-link">Электронные замки</a>
+                                        <a href="/produkcziya/zamki-dlya-razdevalok" class="b-mobile-catalog__catalog-link">Замки для раздевалок</a>
+                                        <a href="/produkcziya/intellektualnaya-sistema-upr" class="b-mobile-catalog__catalog-link">Системы управления номером</a>
+                                        <a href="/produkcziya/gostnichnye-sejfy" class="b-mobile-catalog__catalog-link">Сейфы</a>
+                                        <a href="/produkcziya/minibary-dlya-gostinic" class="b-mobile-catalog__catalog-link">Минибары</a>
+                                    </div>
+                                </div>
+                                <div class="b-mobile-catalog-anoth">
+                                    <div class="b-mobile-catalog-anoth__catalog-box-anoth">
+                                        <a href="/produkcziya/elektronnye-zamki" class="b-mobile-catalog-anoth__catalog-link-anoth">
+                                            <img src="src//images/smart-lock.svg" alt="Электронные замки">
+                                            <span>Электронные замки</span>
+                                        </a>
+                                        <a href="/produkcziya/zamki-dlya-razdevalok" class="b-mobile-catalog-anoth__catalog-link-anoth">
+                                            <img src="src//images/lock-razdevalka.svg" alt="Замки для раздевалки">
+                                            <span>Замки для раздевалок</span>
+                                        </a>
+                                        <a href="/produkcziya/intellektualnaya-sistema-upr" class="b-mobile-catalog-anoth__catalog-link-anoth">
+                                            <img src="src//images/pan.svg" alt="Сист. управления номером">
+                                            <span>Системы уп-я номером</span>
+                                        </a>
+                                        <a href="/produkcziya/gostnichnye-sejfy" class="b-mobile-catalog-anoth__catalog-link-anoth">
+                                            <img src="src//images/safety-box.svg" alt="Сейфы">
+                                            <span>Сейфы</span>
+                                        </a>
+                                        <a href="/produkcziya/minibary-dlya-gostinic" class="b-mobile-catalog-anoth__catalog-link-anoth">
+                                            <img src="src//images/minibar.svg" alt="Минибары">
+                                            <span>Минибары</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="b-breadcrumbs">
+                                    <ul xmlns:v="http://rdf.data-vocabulary.org/#" class="b-breadcrumbs__items">
+                                        <li typeof="v:Breadcrumb">
+                                            <a href="/" rel="v:url" property="v:title">Главная</a>
+                                        </li>
+                                        <li>Поддержка и обслуживание</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="b-service-section"><p>Наша компания оказывает услуги профессионального монтажа электронных гостиничных замков, электронных замков для шкафчиков в раздевалках и для офисных замков.</p>
+                            <p>Установка электронных замков опытными специалистами – это залог долгой работы оборудования и программного обеспечения. Правильное внедрение СКУД в отеле поможет Вам и Вашему персоналу быстро адаптироваться к новым функциям и наладить все бизнес процессы. Вы получите весь комплект знаний для пользования устройствами и программным обеспечением.</p>
+                        </div>
+                        
+        <footer class="b-footer">
+            <div class="row">
+                <div class="b-footer__content">
+                    <p class="b-footer__content-tlf">Отдел продаж:</p>
+                    <div class="b-footer__content-style-a-1blc"><a href="tel:+79034110446"><i class="fas fa-phone-square" aria-hidden="true"></i>8 (903) 411-04-46 (c 9:00 до 18:00(по Мск))</a></div>
+                    <div class="b-footer__content-style-a-2blc"><a href="mailto:sales@orbitatech.ru"><i class="fas fa-envelope" aria-hidden="true"></i>sales@orbitatech.ru</a></div>
+                    <div class="b-footer__content-style-a-3blc"><a href="https://www.youtube.com/channel/UC99J1DkeyKiK9LSRUKIBGdg"><i class="fab fa-youtube"></i>Наш YouTube канал</a></div>
+                </div>
+                <div class="b-footer__content">
+                    <p class="b-footer__content-tlf">Отдел внедрения:</p>
+                    <div class="b-footer__content-style-a-2blc"><a href="mailto:sales@orbitatech.ru"><i class="fas fa-envelope" aria-hidden="true"></i>sales@orbitatech.ru</a></div>
+                    <span>Телефон поддержки:</span><div class="b-footer__content-style-a-1blc"><a href="tel:+79683001757"><i class="fas fa-phone-square" aria-hidden="true"></i>8 (968) 300-17-57 (после 18:00(по Мск))</a></div>
+                    <div class="b-footer__content-style-a-2blc"><i class="fab fa-skype"><a href="skype:BorisGlobal">Skype: BorisGlobal</a></i></div>
                 </div>
             </div>
-    <div class="b-block-menu__servise-book">
-        <span>ServiceBook - Инструмент повышения доходности Вашего отеля</span>
-    </div>
-
-
+            <div class="row">
+                <p class="b-footer__of-title">©2013-2020 Официальный дистрибьютор электронных замков ORBITA в России</p>
+                <p class="b-footer__of-title-2">Заполняя любую форму на сайте, вы принимаете "Пользовательское соглашение о защите персональных данных"</p>
+            </div>
+        </footer>
+    </div>    
 </div>
 </body>
 </html>
