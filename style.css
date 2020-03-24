@@ -10,6 +10,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     vertical-align: baseline;
 }
 
+div {
+    display: block;
+}
+
+
 body, hr {
     color: #2d2d2d;
 }
@@ -28,7 +33,7 @@ body {
 
 body {
     display: block;
-    margin: 8px;
+    
 }
 
 .wrap {
@@ -520,6 +525,44 @@ a img {
     color: white; 
 }
 
+.row {
+    display: block;
+    float: none;
+    width: auto;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.b-breadcrumbs__items {
+    padding: 25px 0;
+    list-style: none;
+}
+
+.b-breadcrumbs__items li {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-family: "Roboto Condensed",sans-serif;
+}
+
+.b-breadcrumbs__items li+li:before {
+    padding: 0 20px;
+    color: #2d2d2d;
+    font-size: 16px;
+    content: "|";
+}
+.b-breadcrumbs__items a {
+    color: #2d2d2d;
+    text-decoration: underline;
+}
+.b-breadcrumbs:after {
+    display: table;
+    clear: both;
+    content: "";
+}
 
 
 @media only screen and (min-width: 375px) {
