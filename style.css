@@ -948,7 +948,7 @@ a img {
     box-sizing: border-box;
     margin-bottom: -10px;
     padding: 20px 20px 30px;
-    background: #e81f32;
+    background: #2D2D2D;
     text-align: center;
 }
 
@@ -1025,7 +1025,7 @@ input {
     color: #fff;
     border: 0;
     border-radius: 5px;
-    background-color: #2d2d2d;
+    background-color: #e81f32;
     box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);
     font-family: Roboto Condensed,sans-serif;
     font-size: 19px;
@@ -1059,10 +1059,54 @@ button {
     border-image: initial;
 }
 
+.b-main-section-5 {
+padding-top: 50px;
+background-image: url(src/images/section-5__background.png);
+}
 
+.b-main-section-5__information-section-5 h2 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
 
+} 
 
+.b-main-section-5__spisok {
+    padding-top: 25px;
+    padding-left: 20%;
+    
+    
+}
 
+.b-main-section-5__spisok ul {
+    border-left: 5px solid #e81f32;
+    width: 40%;
+}
+
+.b-main-section-5__spisok ul li {
+    padding: 10px 0 0 10px;
+    font-family: "Roboto Condensed" ,sans-serif;
+    font-size: 2.5em;
+    
+}
+
+.b-main-section-5__spisok ul li:first-child {
+    font-weight: bold;
+    font-size: 90px;
+    color: rgba(82, 82, 82, 0.5);
+}
+
+.b-main-section-5__spisok ul li:nth-child(2) {
+    font-weight: bold;
+    font-size: 44px;
+    
+}
+.b-main-section-5__spisok ul li:last-child {
+font-size: 27px;
+line-height: 32px;
+color: #5D5757;
+border-left: none;
+}
 
 
 
