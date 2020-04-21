@@ -8,8 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <body class="supportDesktop supportOffline">
+ <body class="supportDesktop supportOffline">
         <div id="app" class="wrap">
             <div class="b-top-phone">
                 <div class="row">
@@ -369,7 +368,9 @@
                         </div>
                     </section>
                     <section class="b-main-section-7">
-                        
+                        <div class="b-main-section-7_text">
+                            <h2>Данные технологии уже используют</h2>
+                        </div>
                         <div class="ant-carousel">
                             <div class="ant-carousel-hider">
                               <ul class="ant-carousel-list">
@@ -382,9 +383,19 @@
                             </div>
                             <div class="ant-carousel-arrow-left"></div><div class="ant-carousel-arrow-right"></div>
                             <div class="ant-carousel-dots"></div>
-                          </div>
-
+                        </div>
                     </section>
+                    <div class="b-form-feedback b-form-feedback">
+                        <p class="b-form-feedback__caption">Оставьте заявку и получите бесплатное подключение! </p>
+                        <p class="b-form-feedback__text">только до 1 апреля 2020 года</p>
+                        <form class="b-form-feedback__form">
+                            <input type="text" maxlength="20" placeholder="Имя" aria-label="Ваше имя" class="b-form-feedback__name">
+                            <input type="text" maxlength="18" placeholder="Введите Ваш номер телефона" required="required" aria-label="Ваш номер телефона" class="b-form-feedback__phone">
+                            <button type="submit" class="b-form-feedback__submit">  
+                                <span>Отправить</span>
+                            </button>
+                        </form>
+                    </div>
                 </div>
                 
         <footer class="b-footer">
@@ -416,6 +427,6 @@
     </div>    
 </div>
 <script src="carousel.js"></script>
-<script>new Ant()</script>
+
 </body>
 </html>

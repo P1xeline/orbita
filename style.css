@@ -1177,6 +1177,16 @@ border-left: none;
     content: "";
 }
 
+.b-main-section-7_text {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.b-main-section-7_text h2 {
+    font-size: 60px;
+    font-weight: bold;
+
+}
 
 .ant-carousel {
 	max-width: 810px;  /* укажите здесь ваше значение */
@@ -1197,7 +1207,8 @@ border-left: none;
 }
 .ant-carousel-element {
 	display: block;
-	flex: 0 0 auto;
+    flex: 0 0 auto;
+
 	width: 270px;  /* укажите здесь ваше значение */
 	text-align: center;  /* укажите здесь ваше значение */
 }
@@ -1212,12 +1223,12 @@ div.ant-carousel-arrow-left, div.ant-carousel-arrow-right {
 	display: block;
 }
 div.ant-carousel-arrow-left {
- 	left: -40px;
+ 	left: -90px;
 	top: 40%;
  	background: url(src/images/arrow-left.png)  no-repeat;
 }
 div.ant-carousel-arrow-right {
- 	 right: -40px;
+ 	right: -90px;
 	top: 40%;
  	background: url(src/images/arrow-right.png)  no-repeat;
 }
@@ -1380,3 +1391,20 @@ i {
 .b-mobile-catalog-anoth {
     display: none;}
 }
+
+@media screen and (min-width: 911px) {
+    .ant-carousel {
+      max-width: 810px;
+    }
+  }
+  
+  @media screen and (min-width: 641px) and (max-width: 910px) {
+    .ant-carousel {
+      max-width: 540px;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .ant-carousel {
+      max-width: 270px;
+    }
