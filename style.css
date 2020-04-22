@@ -1401,7 +1401,9 @@ i {
       max-width: 270px;
     }
 
-    @media only screen and (max-width:1024px){
+
+
+ @media only screen and (max-width:1024px){
     .row {box-sizing:border-box;width:98%;padding:0 1%}
     .b-contact-section-1__maps{float:left;clear:none;width:100%;margin-right:3%;margin-left:0;text-align:inherit}
     .b-contact-section-1__maps:after{display:table;clear:both;content:""}
@@ -1776,3 +1778,13 @@ i {
 @media only screen and (min-width:1490px){
     .b-main-section-1__text h2{padding:100px 20px 0 10px;font-size:35px}
     .b-main-section-1__spisok ul li{font-size:30px}}
+
+    @media only screen and (min-width: 375px) {
+        .b-mobile-catalog {
+            display: none;}
+        }
+
+@media only screen and (min-width: 644px) {
+        .b-mobile-catalog-anoth {
+            display: none;}
+        }
