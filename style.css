@@ -443,7 +443,7 @@ input {
 }
 
 .b-mobile-catalog {
-    display: block;
+    display: none;
     float: none;
     width: auto;
     max-width: 1024px;
@@ -469,7 +469,7 @@ input {
 }
 
 .b-mobile-catalog-anoth {
-    display: block;
+    display: none;
     float: none;
     width: auto;
     max-width: 1023px;
