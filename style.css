@@ -333,6 +333,24 @@ input {
     position: relative;
     margin-top: 80px;
 }
+.b-navigation__menutoggle input:checked~ul {
+    transform: none;
+}
+
+.b-navigation__menutoggle input:checked~span {
+    opacity: 1;
+    background: #2d2d2d;
+    transform: rotate(45deg) translate(-3px,-1px);
+}
+
+.b-navigation__menutoggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0) scale(.2);
+}
+
+.b-navigation__menutoggle input:checked~span:nth-last-child(2) {
+    transform: rotate(-45deg) translateY(-1px);
+}
 
 .b-img-section__text {
     position: absolute;
@@ -1479,9 +1497,13 @@ i {
 
   @media screen and (max-width: 640px) {
     .ant-carousel {
-      max-width: 270px;}}
+      max-width: 270px;}
+    
       
-    @media only screen and (max-width:414px){
+    @media screen and (max-width: 500px) {
+        div.ant-carousel-arrow-left,div.ant-carousel-arrow-right{display: none;}}
+      
+@media only screen and (max-width:414px){
         .b-block-menu{float:left;clear:none;width:50%;height:108px;margin-right:0;margin-left:0;outline:0;text-align:inherit}
                 .b-block-menu:after{display:table;clear:both;content:""}
                 .b-block-menu:last-child{margin-right:0}
@@ -1496,16 +1518,25 @@ i {
                 .b-main-section-6__standarts-img-text{float:left;clear:none;width:50%;margin-right:0;margin-left:0;padding-top:0;text-align:inherit}
                 .b-main-section-6__standarts-img-text:after{display:table;clear:both;content:""}
                 .b-main-section-6__standarts-img-text:last-child{margin-right:0}
-                .b-main-section-6__standarts-img-text img{padding-top:8px;padding-bottom:8px}
+                .b-main-section-6__standarts-img-text img{padding-top:8px;padding-bottom:8px}}
+               
+               
+               
+               
+               
                 @media only screen and (max-width:374px){
                     .b-mobile-catalog{display:inline-block;padding-top:20px;padding-left:5px}
                     .b-mobile-catalog-anoth{display:none}}
 
-  @media only screen and (min-width:375px) and (max-width:644px){
-                        .b-mobile-catalog-anoth{display:block;padding-top:20px}}
+                
+                    
+                        
  @media only screen and (min-width:375px){
                             .b-mobile-catalog{display:none}}
                             
+                            @media only screen and (min-width:375px) and (max-width:644px){
+                                .b-mobile-catalog-anoth{display:block;padding-top:20px}}
+
 @media only screen and (min-width:644px) and (max-width:900px){
                                 .b-img-section__text h1{font-size:22px}
 
