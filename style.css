@@ -1461,7 +1461,7 @@ i {
     .b-navigation__mobile-menu{display:block;width:100%;height:50px;background:#fff;box-shadow:0 0 20px rgba(0,0,0,.3)}
     .b-top-official__text{display:none}
     .b-main-section-6__standarts-img-text img{height: 70px;}
-    .b-main-section-6__standarts-img-text p {font-size: 4vw;line-height: 4vw;}
+    .b-main-section-6__standarts-img-text p {line-height: 4vw; font-size: 4vw;}
     .b-main-section-6__background-img {height: 350px;}
     .ant-carousel {
         max-width: 270px;}}
@@ -1494,7 +1494,7 @@ i {
     .b-form-feedback__caption{display:block;width:100%;margin-bottom:10px;font-size:25px;text-align:center}
     .b-form-feedback__name,.b-form-feedback__phone{display:block;width:100%;margin-bottom:10px;padding:9px 0}
     .b-form-feedback__submit{display:block;width:100%;margin-left:0}
-    .b-main-section-1__spisok ul li {padding: 2px 0 2px 3px; font-size: 2.6vw;}
+    .b-main-section-1__spisok ul li {padding: 1px 0 2px 3px; font-size: 2.6vw;}
 
     .b-main-section-3__text h2 {margin-bottom: 0}
     .b-main-section-6__standarts-img-text{float:left;clear:none;width:49%;margin-right:0;margin-left:0;padding-top:20px;text-align:inherit}
