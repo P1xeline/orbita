@@ -862,8 +862,8 @@ a img {
     padding: 10px 0 10px 10px;
     color: #fff;
     font-family: "Roboto Condensed" ,sans-serif;
-    font-size: 2.3vw;
-    line-height: 1.5;
+    font-size: 2.6vw;
+    line-height: 4vw;
 }
 
 .b-main-section-3__text:after {
@@ -1501,7 +1501,9 @@ i {
     .b-main-section-6__standarts-img-text:after{display:table;clear:both;content:""}
     .b-main-section-6__standarts-img-text:last-child{margin-right:0}
     .b-main-section-6__standarts-img-text img{padding-top:8px;padding-bottom:8px}
-    .b-main-section-6__background-img {height: 420px;}}
+    .b-main-section-6__background-img {height: 420px;}
+    .b-main-section-3__spisok ul li {font-size: 3vw; line-height: 3vw;}
+    .b-main-section-4__spisok ul li {font-size: 2.5vw;}
 
     
 
@@ -1509,7 +1511,8 @@ i {
     
       
     @media screen and (max-width: 500px) {
-        div.ant-carousel-arrow-left,div.ant-carousel-arrow-right{display: none;}}
+        div.ant-carousel-arrow-left,div.ant-carousel-arrow-right{display: none;}
+        .b-main-section-3__spisok ul li {line-height: 3vw;padding: 3px 0 10px 10px;}
       
 @media only screen and (max-width:414px){
         .b-block-menu{float:left;clear:none;width:50%;height:108px;margin-right:0;margin-left:0;outline:0;text-align:inherit}
