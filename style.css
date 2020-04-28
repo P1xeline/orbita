@@ -1494,7 +1494,7 @@ i {
     .b-form-feedback__caption{display:block;width:100%;margin-bottom:10px;font-size:25px;text-align:center}
     .b-form-feedback__name,.b-form-feedback__phone{display:block;width:100%;margin-bottom:10px;padding:9px 0}
     .b-form-feedback__submit{display:block;width:100%;margin-left:0}
-    .b-main-section-1__spisok ul li {padding: 1px 0 2px 3px; font-size: 2.6vw;}
+    .b-main-section-1__spisok ul li {padding: 0 0 2px 3px; font-size: 2.6vw;}
 
     .b-main-section-3__text h2 {margin-bottom: 0}
     .b-main-section-6__standarts-img-text{float:left;clear:none;width:49%;margin-right:0;margin-left:0;padding-top:20px;text-align:inherit}
@@ -1558,8 +1558,3 @@ i {
                                         .b-img-section__text h1{font-size:28px}}
                                         @media only screen and (min-width:769px) and (max-width:899px){
                                             .b-navigation__logo img{margin-left:-10%}}
-
-
-            
-
-    
